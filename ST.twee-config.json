@@ -1,0 +1,9 @@
+{
+	"sugarcube-2": {
+		"macros": {
+			"example": {
+				"description": "这是一个示例，用于演示如何在Twee环境中使用JS自建宏，避免触发编辑器的错误提示。"
+			}
+		}
+	}
+}
