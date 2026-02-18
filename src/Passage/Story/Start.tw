@@ -1,2 +1,20 @@
 :: Start
+<div id="opening"><div id="text">
+开场画面<br>
+点击任意处进入游戏
+</div></div>
+
+<<done>>
+	<<script>>
+		// 一共就只有两步
+		// 第一步是选中div，然后保存在JS变量中，便于下一步使用
+		const item = document.getElementById("opening");
+		// 第二步是，给它增加点击事件，这个是增加点击事件的方法
+		// 然后写事件本体
+		item.addEventListener("click", function () {
+			this.remove();
+		})
+	<</script>>
+<</done>>
+
 这里是游戏开始的地方，玩家点开你的游戏后，最先看到的部分。
