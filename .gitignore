@@ -1,5 +1,7 @@
-.log
+*.log
 
 .vscode/
 
 src/Temp
+
+*.zip
